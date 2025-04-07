@@ -35,19 +35,32 @@
   }
 
   header {
-    background: #1f1f1f;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    background-color: #ffffff; /* or any color you use */
+    border-radius: 0 0 25px 25px; /* curved at bottom-left and bottom-right */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
-
-  nav {
+  
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 10px 20px;
   }
 
+
+
+  .inner-box {
+    background-color: #f8f8f8; /* optional, set background */
+    border-radius: 200px; /* curved all around */
+    padding: 10px 20px; /* optional for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional depth */
+  }
   nav h1 {
     color: #ff9800;
     font-size: 1.8rem;
@@ -497,69 +510,107 @@
   }
 
 
-  .skills-section {
-    padding: 60px 20px;
-    background: linear-gradient(135deg, #181825, #11111c);
-    color: white;
-    text-align: center;
-  }
-  
-  .skills-section h2 {
-    color: orange;
-    margin-bottom: 30px;
-    font-size: 2rem;
-  }
-  
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 20px;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  .skill-item {
-    background-color: #252537;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 15px;
-    font-weight: bold;
-    color: #fff;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .skill-item:hover {
-    transform: scale(1.05);
-    background-color: #33334d;
-  }
+/* Skills Section */
+.skills-section {
+  background: linear-gradient(135deg, #181825, #11111c);
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
 
+.skills-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: orange;
+}
 
-  .skill {
-    margin-bottom: 25px;
-    text-align: left;
-    transition: all 0.3s ease;
-  }
-  
-  .skill:hover span {
-    color: #00ffff; /* Changes skill name color on hover */
-  }
-  
-  .skill:hover .progress {
-    background: linear-gradient(90deg, #00f2fe, #4facfe); /* New gradient on hover */
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6); /* Soft glow effect */
-    transition: background 0.4s ease, box-shadow 0.4s ease;
-  }
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .skill:hover span {
-    color: #00ffff;
-    text-shadow: 0 0 8px #00ffff;
-  }
+.skills-category {
+  background-color: #1e1e2f;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
 
+.skills-category:hover {
+  transform: translateY(-8px);
+  background-color: #2a2a40;
+}
 
+.skills-category h3 {
+  font-size: 22px;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
 
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #d1d1d1;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.skills-list li:hover {
+  color: #00ffff;
+  transform: translateX(5px);
+}
 
 
 
+.achievements-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #181825, #11111c);
+  text-align: center;
+  color: #fff;
+}
+
+.achievements-section h2 {
+  font-size: 32px;
+  color: orange;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.achievement-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.achievement-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(255, 204, 0, 0.4);
+}
+
+.achievement-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ffcc00;
+}
 
 
 
