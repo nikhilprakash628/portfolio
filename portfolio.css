@@ -36,7 +36,7 @@
 
   header {
     background-color: #ffffff; /* or any color you use */
-    border-radius: 0 0 25px 25px; /* curved at bottom-left and bottom-right */
+    border-radius: 0 0 5px 5px; /* curved at bottom-left and bottom-right */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     position: sticky;
@@ -51,6 +51,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
+    border-radius: 12px;
   }
 
 
