@@ -134,7 +134,7 @@
 
   .project-card {
     display: flex;
-    background: #1f1f1f;
+    background: linear-gradient(135deg, #181825, #11111c);;
     margin-bottom: 30px;
     border-radius: 10px;
     overflow: hidden;
@@ -202,7 +202,7 @@
   }
 
   footer {
-    background: #1a1a1a;
+    background: linear-gradient(135deg, #181825, #11111c);
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
@@ -327,7 +327,7 @@
   #projects {
     text-align: center;
     padding: 50px;
-    background-color: #121829; /* Dark Navy Blue */
+    background-color: linear-gradient(135deg, #181825, #11111c); /* Dark Navy Blue */
     color: white; /* White text for contrast */
   }
   
@@ -397,7 +397,7 @@
     
   #contact {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #101017, #10101a);
+    background: linear-gradient(135deg, #181825, #11111c);
     color: #fff;
     text-align: center;
     animation: fadeIn 1s ease-out;
@@ -1074,14 +1074,81 @@
     }
   }
   
+/* Education Section Wrapper */
+.education-section {
+  background-color: linear-gradient(135deg, #181825, #11111c);
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section Title */
+.education-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ed8207;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Individual Education Box */
+.education-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Degree / Qualification */
+.education-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+/* School/College Name */
+.education-box p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+/* Date or Score */
+.education-box p:last-child {
+  font-size: 14px;
+  color: #ffffff;
+}
 
 
 
 
 
+.education-box {
+  /* background-color: #f5f5f5; */
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(226, 5, 5, 0.05);
+  transition: all 0.3s ease-in-out;
+  
+}
 
+.education-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(179, 255, 0, 0.15);
+}
 
-
+.education-box.clicked {
+  background-color: #e0f7fa;
+  box-shadow: 0 12px 30px rgba(110, 15, 15, 0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
 
 
 
