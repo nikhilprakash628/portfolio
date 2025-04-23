@@ -233,7 +233,7 @@
 .hero {
   background: linear-gradient(to right, #061839, #081b3d);
   color: white;
-  padding: 80px 40px;
+  padding: 100px 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -396,7 +396,7 @@
   }
     
   #contact {
-    padding: 80px 20px;
+    padding: 80px 80px;
     background: linear-gradient(135deg, #181825, #11111c);
     color: #fff;
     text-align: center;
@@ -515,7 +515,7 @@
 .skills-section {
   background: linear-gradient(135deg, #181825, #11111c);
   color: #ffffff;
-  padding: 60px 20px;
+  padding: 150px 200px;
   text-align: center;
 }
 
@@ -573,7 +573,7 @@
 
 
 .achievements-section {
-  padding: 60px 20px;
+  padding: 150px 150px;
   background: linear-gradient(135deg, #181825, #11111c);
   text-align: center;
   color: #fff;
@@ -745,7 +745,7 @@
   .about-section {
     background: linear-gradient(135deg, #181825, #11111c);
     color: #ffffff;
-    padding: 60px 20px;
+    padding: 200px 200px;
     text-align: center;
   }
   
@@ -759,8 +759,8 @@
   .about-container {
     max-width: 800px;
     margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.7;
+    font-size: 100px;
+    line-height: 2.0;
     padding: 0 15px;
     animation: fadeInUp 1.5s ease;
   }
@@ -780,11 +780,11 @@
   /* Responsive for phones */
   @media (max-width: 600px) {
     .about-title {
-      font-size: 28px;
+      font-size: 100px;
     }
   
     .about-container {
-      font-size: 16px;
+      font-size: 100px;
     }
   }
 
@@ -884,7 +884,7 @@
 
   .certifications-section {
     background: linear-gradient(135deg, #181825, #11111c);
-    padding: 60px 30px;
+    padding: 150px 200px;
     color: #ffffff;
     text-align: center;
   }
