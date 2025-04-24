@@ -417,7 +417,7 @@
   #contact h2 {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #ffcc00;
+    color: orange;
     animation: scaleIn 0.8s ease-in-out;
   }
   
@@ -1089,7 +1089,7 @@
 .education-section h2 {
   font-size: 32px;
   font-weight: 700;
-  color: #ed8207;
+  color: orange;
   text-align: center;
   margin-bottom: 30px;
 }
